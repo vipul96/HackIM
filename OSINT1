@@ -1,1 +1,13 @@
+OSINT1 
+Description :
 
+This is an OSINT challenge, it’s rare and the Nullcon made it very well! The statement: 
+One of our systems has been infected by a ransomware.The message says My username is your password. Wait for further instructions. 
+We have been able to identify the JS file used to download the ransomware. 
+Here is the MD5: ‘151af957b92d1a210537be7b1061dca6’. Can you help us to unlock the machine? 
+
+Solution:
+
+In this task the author gaves us a ransomware hash. After passing it in virustotal. I saw the DSAdaDSDA.js JS dropper for Nemucod ransomware. After a little looking on Google, I found the Hybrid Analysis report and found the username n923wUc in the HTTP Traffic. 
+ 
+FLAG: hackim18{‘n923wUc’} 
