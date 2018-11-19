@@ -1,0 +1,32 @@
+Description
+Person is running a social engineering campaign. After initial inspection, his/her username was identified by our investigators. It was also found that this guy was signed up on Snapchat and Instachatbook around April 2017. However we cannot get hold of his phone number.
+
+Username identified was ‘example1234’ Please help our investigators find his number.
+
+
+
+Solution:
+
+With the email address, social media and date, I looked for database leak of those media.
+
+First I found a pastebin note showing the last 2 digits of the phone number.
+
+Secondly, I found a website that return you 8 first digits of your phone number depending on your username.
+
+Then we got the complete phone number.
+
+Pastebin
+In my research for database leak I find this pastebin.
+
+(‘XXXXXXXX55’, ‘example1234’, ‘example1234@instachatbookk.com’, “),
+
+I got last two digits \o/
+
+FindMySnap
+5 minutes later I found the FindMySnap website.
+
+And I got 8 first \o/
+
+Flag: 
+
+hackim18{‘8157931155’}
